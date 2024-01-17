@@ -1,0 +1,34 @@
+<mj-raw>
+    <!-- Footer -->
+  </mj-raw>
+  <mj-wrapper css-class="footer" padding="0px">
+        <mj-section padding="0">
+          <mj-group css-class="icons-size">
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.instagram.com/junyawatanabe" src="https://i.ibb.co/ChJsppS/applepay.png" width="27px" height="27px" alt="applepay" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.instagram.com/junyawatanabe" src="https://i.ibb.co/FwFRYYW/afterpay.png" width="27px" height="27px" alt="afterpay" />
+            </mj-column>
+            <mj-column padding="0">
+              <mj-image padding="0 5px" href="https://www.instagram.com/junyawatanabe" src="https://i.ibb.co/68W4jv0/paypal.png" width="27px" height="27px" alt="paypal" />
+            </mj-column>
+            
+
+          </mj-group>
+        </mj-section>
+        <mj-section padding="20px 0 0">
+          <mj-column padding="0">
+            <mj-text font-size="10px" align="center">
+            &copy; Junya Watanabe. tackling the avant-garde and presenting conceptual yet wearable garments
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section padding="0px 0 60px">
+          <mj-column padding="0">
+            <mj-text font-size="10px" align="center">
+              <a href="#" class="footer-links">Unsubscribe</a> | <a href="#" class="footer-links">Manage Your Email Preferences</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>

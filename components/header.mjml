@@ -1,0 +1,8 @@
+<mj-raw>
+    <!-- Header -->
+  </mj-raw>
+  <mj-section css-class="header section-padding">
+    <mj-column>
+      <mj-image alt="shopify logo" href="https://www.instagram.com/junyawatanabe" width="121px" align="left" src="https://i.ibb.co/b6gztYt/JWlogo.png">
+    </mj-column>
+  </mj-section>

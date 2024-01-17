@@ -1,0 +1,160 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-image padding="0" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .link-color {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .link-color:hover {
+        font-weight: bold;
+        color: #909096;
+        text-decoration: underline;
+      }
+
+      .small-link-color {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .small-link-color:hover {
+        font-weight: bold;
+        color: #909096;
+        text-decoration: underline;
+      }
+
+      .footer-links {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .footer-links:hover {
+        color: #909096;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width:480px) {
+        .footer-links {
+          color: red;
+          text-decoration: none;
+        }
+
+        .footer-links:hover {
+          color: red;
+          text-decoration: none;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .icons-size {
+        max-width: 280px;
+        padding: 40px 0 30px;
+      }
+
+      .header {
+        background-color: #909096;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .footer {
+        background-image: url('https://i.ibb.co/ngnKvg9/JW-bg-colors.png');
+        background-size: 600px;
+      }
+
+      .content-background {
+        background-color: #ffffff;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-section css-class="content-background" padding="0">
+      <mj-include path="./components/header.mjml" />
+      <mj-raw>
+        <!-- Top Section -->
+      </mj-raw>
+      <mj-section>
+        <mj-column padding="20px 0 30px 0">
+          <mj-text css-class="header-title" font-size="58px" color="#000000" font-weight="bold">
+            Free Shipping
+          </mj-text>
+          <mj-text css-class="header-title" font-size="18px" color="#000000" font-weight="normal">
+            Code:24JAPAN
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-include path="./components/3-line.mjml" />
+      <mj-raw>
+        <!-- 2 Column image with text -->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image href="https://www.endclothing.com/us/junya-watanabe-man-wool-nylon-varsity-jacket-wl-j022-051-1.html" padding-bottom="20px" src="https://i.ibb.co/mz3C4C4/JWcoat-1.png.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text color="#000000" font-size="24px" font-weight="bold" padding-bottom="20px">
+            <a href="https://www.endclothing.com/us/brands/junya-watanabe-man.com" class="link-color"> Men Winter Sale</a>
+          </mj-text>
+
+          <mj-text color="#000000" font-size="16px" font-weight="normal" line-height="20px" padding-bottom="20px">
+            30%-50% Off
+          </mj-text>
+
+          <mj-text color="#000000" font-size="14px" font-weight="bold" line-height="20px" padding-bottom="20px">
+            <a href="https://www.endclothing.com/us/brands/junya-watanabe-man.com" class="small-link-color">Shop Now </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image href="https://www.endclothing.com/us/junya-watanabe-man-x-nanga-convertible-jacket-wl-j904-100-1.html" padding-bottom="20px" src="https://i.ibb.co/WyjM0rh/JWcoat-2.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text color="#000000" font-size="24px" font-weight="bold" padding-bottom="20px">
+            <a href="https://www.endclothing.com/us/brands/junya-watanabe-man.com" class="link-color"> Men Winter Sale</a>
+          </mj-text>
+
+          <mj-text color="#000000" font-size="16px" font-weight="normal" line-height="20px" padding-bottom="20px">
+            Extra 20% off Clearance
+          </mj-text>
+
+          <mj-text color="#000000" font-size="14px" font-weight="bold" line-height="20px" padding-bottom="20px">
+            <a href="https://www.endclothing.com/us/brands/junya-watanabe-man.com" class="small-link-color">Shop Now </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 3 Lines -->
+      </mj-raw>
+      <mj-include path="./components/3-line.mjml" />
+      <mj-raw>
+        <!-- Bottom Center Text-->
+      </mj-raw>
+      <mj-section padding="40px 40px 20px 40px">
+        <mj-column>
+          <mj-text align="center" font-size="20px" font-weight="bold" line-height="20px" color="#000000">
+            Presenting a deconstructed take on the staple outerwear garment.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- 2 App Icons -->
+
+        <!-- Footer -->
+      </mj-raw>
+
+      <mj-include path="./components/footer.mjml" />
+    </mj-section>
+  </mj-body>
+
+</mjml>
